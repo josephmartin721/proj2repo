@@ -3,7 +3,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const eslint = require('eslint')
 const path = require('path');
-const routes = require('./routes');
+const routes = require('./seeds');
 
 // import sequelize connection
 
