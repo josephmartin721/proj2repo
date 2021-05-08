@@ -2,7 +2,7 @@ const { Post } = require('../models');
 
 const postData = [
     {
-        post_content: 'Superman still can not prevent placeholder text.',
+        post_content: 'placeholder text values',
     },
     {
     },

@@ -2,7 +2,8 @@
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
-const eslint = require('eslint')
+const sequelize = require('sequelize');
+const eslint = require('eslint');
 const path = require('path');
 const routes = require('./seeds');
 
@@ -23,7 +24,7 @@ sequelize.sync({force: false}).then(() => {
 app.listen(PORT, () =>
   console.log(`App listening on port ${PORT}!`));
 });
-=======
+
 const express = require('express');
 const app = express();
 const Blockchain = require("./blockchain/example"); 
